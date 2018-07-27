@@ -27,8 +27,9 @@ enable	| 用户账号是否可以用 | tinyint
 ## 表结构
 
 >1. 用户表
+
 列名 | 类型
-| - |-----:|
+| - | :-: |
 用户id | int
 用户名 | varchar
 邮箱		| varchar	
@@ -36,16 +37,18 @@ enable	| 用户账号是否可以用 | tinyint
 所属公司 | varchar
 
 >2. 产品表
+
 列名 | 类型
-| - |-----:|
+| - | :-: |
 产品id   | int
 产品名   | varchar
 图片		| varchar	
 组成 	| varchar
 
 >3. 订单表
+
 列名 | 类型
-| - |-----:|
+| - | :-: |
 订单id | int
 产品id | int
 花号   | varchar
@@ -58,15 +61,16 @@ enable	| 用户账号是否可以用 | tinyint
 样品单id | int
 
 >4. 样品单表
+
 列名 | 类型
-| - |-----:|
+| - | :-: |
 样品单id | int
 样品单名 | varchar
 下单用户id | int
 接单用户id |	 int
 下单时间 | date
-交单时间	 | date
-备注		| varchar
+交单时间 | date
+备注     | varchar
 注意事项 | varchar
 
 ## 类

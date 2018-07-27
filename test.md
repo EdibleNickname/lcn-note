@@ -137,7 +137,24 @@ public class Order {
 
 >4. 样品单
 ```java
-
+/**
+ * @description: 样品单信息
+ * @author: LCN
+ * @date: 2018-07-27 14:29
+ */
+@Data
+@NoArgsConstructor
+public class StampOrder {
+	private int stampOrderId;
+	private String stampOrderName;
+	private User fromUser;
+	private User toUser;
+	private List<Order> orderList;
+	private Date orderTime;
+	private Date presentationTime;
+	private String remarek;
+	private String notice;
+}
 
 ```
 
